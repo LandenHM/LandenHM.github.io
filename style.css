@@ -100,9 +100,9 @@ footer {
 }
 
 main {
-    max-width: 800px;
+    max-width: 840px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 20px;
     box-sizing: border-box;
     flex-grow: 1;
 }
@@ -152,4 +152,33 @@ main {
 @keyframes blink-outline {
     0%, 49% { opacity: 0; }
     50%, 100% { opacity: 1; }
+}
+
+.section-box {
+    background-color: #222222;
+    border: 1px solid #444444;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.section-box p {
+    margin: 0;
+    max-width: none;
+    word-break: normal;
+    overflow-wrap: normal;
+    white-space: normal;
+}
+
+.section-box code {
+    display: block;
+    word-break: break-all;
+    font-size: 0.9em;
+    color: #BBBBBB;
+}
+
+.subtle-text-color {
+    color: #BBBBBB;
 }

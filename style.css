@@ -105,6 +105,7 @@ main {
     padding: 0 20px;
     box-sizing: border-box;
     flex-grow: 1;
+    text-align: center;
 }
 
 .back-to-top {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prediction - LHM's Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <nav><a href="/">⌂ LHM's Site</a> | <a href="/posts/">Blog</a> | <a href="/faq/">FAQ</a> | <a href="/contact/">Contact</a> | <a href="/services/">Services</a> | <a href="/mirrors/">Mirrors</a></nav>
+    <hr>
+
+    <main>
+        <h1>It is 02/04/2023</h1>
+        <p><img src="https://raw.githubusercontent.com/LandenHM/LandenHM.github.io/main/posts/img/secret/1.png" alt="AI Chat Screenshot 1"></p>
+        <p>I am using C.AI, I ask the AI to give me my scratch profile. It gives me the correct URL by presumably putting the username I gave it at the end of https://scratch.mit.edu/users/</p>
+        <p>I ask it for my C.AI bot called "Read Me"</p>
+        <p class="subtle-text-color"><small>Bios didn't exist yet, so, everyone has a pinned <em>_Read Me_</em> bot.</small></p>
+        <p>and it gives me the correct URL, but, this should only be possible if someone told it.</p>
+
+        <p><img src="https://raw.githubusercontent.com/LandenHM/LandenHM.github.io/main/posts/img/secret/2.png" alt="AI Chat Screenshot 2"></p>
+        <p>I ask it for another bot, that, well, isn't the "_Read Me" bot itself, instead a bot titled "LandenHM" which was an AI recreation of myself at the time. It gives me the correct URL, again. Except this bot is unlisted, it shouldn't have access to that.</p>
+
+        <p><img src="https://raw.githubusercontent.com/LandenHM/LandenHM.github.io/main/posts/img/secret/3.png" alt="AI Chat Screenshot 3"></p>
+        <p>Another person in the Discord chat asks one of their AI's for the "LandenHM AI", and it gives them the link "<a href="https://landenhm.github.io/AI.html">https://landenhm.github.io/AI.html</a>". We assume this AI isn't as smart as my "_Read Me" ai.</p>
+
+        <h2>2 years later, on 06/26/2025</h2>
+        <p>I register landenhm.github.io</p>
+
+        <h2>Today, on 07/01/2025</h2>
+        <p>I make this page, and realize the AI predicted the future. But, there's one thing wrong. It says "[...]but be warned, this was a very basic version i did long time ago, so don't expect anything as complete as Novel AI or something."</p>
+        <p>And so.. I introduce to you, my own AI!!!</p>
+
+        <div id="ai-interaction-box">
+            <input type="text" id="ai-input" placeholder="Type something and press Enter...">
+            <button id="ai-button">Ask AI</button>
+            <p id="ai-response"></p>
+        </div>
+    </main>
+  
+    <hr>
+    <footer> <a href="#top" class="back-to-top">Back to Top<span class="blinking-cursor-container"><span class="blinking-cursor-solid">▮</span><span class="blinking-cursor-outline">▯</span></span></a> </footer>
+
+    <!-- So, I lied. This site contains a single piece of JavaScript. -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const aiInput = document.getElementById('ai-input');
+            const aiButton = document.getElementById('ai-button');
+            const aiResponse = document.getElementById('ai-response');
+            const responseText = "Huh, what's that? I can't hear you. LandenHM forgot to give me ears.";
+
+            function showResponse() {
+                aiResponse.textContent = responseText;
+            }
+
+            aiButton.addEventListener('click', showResponse);
+            aiInput.addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    showResponse();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

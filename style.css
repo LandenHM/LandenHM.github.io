@@ -161,6 +161,7 @@ main {
     margin: 20px auto;
     max-width: 800px;
     border-radius: 4px;
+    text-align: left;
 }
 
 .section-box p {
@@ -169,6 +170,7 @@ main {
     word-break: normal;
     overflow-wrap: normal;
     white-space: normal;
+    text-align: left;
 }
 
 .section-box code {
@@ -176,10 +178,12 @@ main {
     word-break: break-all;
     font-size: 0.9em;
     color: #BBBBBB;
+    text-align: left;
 }
 
 .subtle-text-color {
     color: #BBBBBB;
+    text-align: center;
 }
 
 /* Specific styles for the secret begin here */

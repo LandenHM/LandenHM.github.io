@@ -239,3 +239,20 @@ main img {
     font-size: 1.1em;
     color: #D0D0D0;
 }
+
+.loading-text {
+    background: linear-gradient(to right, #D0D0D0 0%, #888888 50%, #D0D0D0 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: loading-gradient 1.5s linear infinite;
+}
+
+@keyframes loading-gradient {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

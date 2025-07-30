@@ -50,15 +50,16 @@
             const responseText = "Huh, what's that? I can't hear you. LandenHM forgot to give me ears.";
 
             function showResponse() {
-                aiResponse.textContent = '';
+                aiResponse.textContent = 'Loading...'; // Set loading text
+                aiResponse.setAttribute('data-text', 'Loading...'); // Set data-text for pseudo-element
                 aiResponse.classList.add('loading-text');
-                aiResponse.textContent = 'Loading...';
 
-                const loadingTime = Math.random() * 4000 + 1000;
+                const loadingTime = Math.random() * 4000 + 1000; // Random time between 1 and 5 seconds
 
                 setTimeout(() => {
                     aiResponse.classList.remove('loading-text');
                     aiResponse.textContent = responseText;
+                    aiResponse.removeAttribute('data-text'); // Remove data-text when done
                 }, loadingTime);
             }
 

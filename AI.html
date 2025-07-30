@@ -50,7 +50,16 @@
             const responseText = "Huh, what's that? I can't hear you. LandenHM forgot to give me ears.";
 
             function showResponse() {
-                aiResponse.textContent = responseText;
+                aiResponse.textContent = '';
+                aiResponse.classList.add('loading-text');
+                aiResponse.textContent = 'Loading...';
+
+                const loadingTime = Math.random() * 4000 + 1000;
+
+                setTimeout(() => {
+                    aiResponse.classList.remove('loading-text');
+                    aiResponse.textContent = responseText;
+                }, loadingTime);
             }
 
             aiButton.addEventListener('click', showResponse);

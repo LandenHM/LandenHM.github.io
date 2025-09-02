@@ -21,4 +21,4 @@ Access the site through these links:
 
 ## ❔ More Information
 
-For more details about the site, please refer to the [FAQ page](https://landenhm.pages.dev/faq/).
+For more details about the site, please refer to the [FAQ page](https://landenhm.codeberg.page/faq/).

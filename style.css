@@ -28,6 +28,7 @@ nav a {
 
 nav a:hover {
     background-color: #2a2a2a;
+    border-radius: 4px;
 }
 
 hr {

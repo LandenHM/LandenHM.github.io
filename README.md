@@ -4,6 +4,13 @@ This repository hosts the source code for my personal website. The site is desig
 
 The main repository is located at [Codeberg](https://codeberg.org/LandenHM/pages/). Please note that pull requests and issues are only accepted through here.
 
+## 🧪 Testing
+I plan to test the site on several different browser engines.
+- [Chromium](https://www.chromium.org/Home/) (Specifically [Helium](https://helium.computer/) and [Vanadium](https://vanadium.app))
+- [Firefox](https://www.firefox.com/)
+- [Ladybird](https://ladybird.org/)
+- [Servo](https://servo.org/) (Specifically [Verso](https://gitlab.com/verso-browser/verso))
+
 ## 🪞 Mirrors
 
 You can find mirrors of this repository at:

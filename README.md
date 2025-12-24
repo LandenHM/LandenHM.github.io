@@ -9,7 +9,7 @@ I plan to test the site on several different browser engines.
 - [Chromium](https://www.chromium.org/Home/) (Specifically [Helium](https://helium.computer/) and [Vanadium](https://vanadium.app))
 - [Firefox](https://www.firefox.com/)
 - [Ladybird](https://ladybird.org/)
-- [Servo](https://servo.org/) (Specifically [Verso](https://gitlab.com/verso-browser/verso))
+- [Servo](https://servo.org/) (Specifically [servoshell](https://servo.org/download/))
 
 ## 🪞 Mirrors
 

@@ -24,7 +24,7 @@ Access the site through these links:
 - [GitLab Pages](https://landenhm.gitlab.io)
 - [Codeberg Pages](https://landenhm.codeberg.page)
 - [Cloudflare Pages](https://landenhm.pages.dev)
-- [Tor Hidden Service](https://lhmca6m6lu5st24jvto5lrcikbwg7ekldmbcvqlghm4ear4yys4xmeyd.onion/)
+- [Tor Hidden Service](https://landenhmptf6o6cka3icfghjq4agr2k2b7tnc4kyabu2vdx7yvgay6id.onion)
 
 ## ❔ More Information
 

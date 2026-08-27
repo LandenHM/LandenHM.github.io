@@ -187,6 +187,16 @@ main {
     text-align: center;
 }
 
+.grid {
+	display: grid;
+	gap: 8px;
+	justify-items: center;
+}
+
+.grid a {
+	line-height: 0;
+/* I cannot figure out why but if I place a } here, it doesn't work. */
+  
 /* Specific styles for the secret begin here */
 main img {
     max-width: 100%;

@@ -16,6 +16,7 @@ I plan to test the site on several different browser engines.
 You can find mirrors of this repository at:
 - [GitHub](https://github.com/LandenHM/LandenHM.github.io)
 - [GitLab](https://gitlab.com/LandenHM/landenhm.gitlab.io)
+- Most likely going to move to my own self hosted Forgejo one day, and have Codeberg become just a mirror.
 
 ## 🌐 Live Sites
 
@@ -25,6 +26,7 @@ Access the site through these links:
 - [Codeberg Pages](https://landenhm.codeberg.page)
 - [Cloudflare Pages](https://landenhm.pages.dev)
 - [Tor Hidden Service](https://landenhmptf6o6cka3icfghjq4agr2k2b7tnc4kyabu2vdx7yvgay6id.onion)
+- Depending on if people want it, in the future once the site is in a much better condition, I'll consider: [i2p](https://i2p.net/en/), [spartan](https://portal.mozz.us/spartan/mozz.us/) and Gopher-over-TLS (gophers://)
 
 ## ❔ More Information
 

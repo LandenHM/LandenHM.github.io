@@ -1,8 +1,10 @@
-# NOTE:
+# 📝 NOTE:
 This is the rewrite branch, I am undecided between these three frameworks for the rewrite:
 - [Pandoc (not really a framework)](https://pandoc.org)
 - [Hugo](https://gohugo.io)
 - [Zola](https://getzola.org)
+
+---
 
 # <img src="./favicon.png" width="20px" height="20px" style="border-radius: 5px;" alt="LHM Site Icon"> LHM's Site
 

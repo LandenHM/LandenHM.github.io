@@ -1,0 +1,39 @@
+# NOTE:
+This is the rewrite branch, I am undecided between these three frameworks for the rewrite:
+- [Pandoc (not really a framework)](https://pandoc.org)
+- [Hugo](https://gohugo.io)
+- [Zola](https://getzola.org)
+
+# <img src="./favicon.png" width="20px" height="20px" style="border-radius: 5px;" alt="LHM Site Icon"> LHM's Site
+
+This repository hosts the source code for my personal website. The site is designed to function without JavaScript. While not tested much, it also appears to work without CSS too.
+
+The main repository is located at [Codeberg](https://codeberg.org/LandenHM/pages/). Please note that pull requests and issues are only accepted through here.
+
+## 🧪 Testing
+I plan to test the site on several different browser engines.
+- [Chromium](https://www.chromium.org/Home/) (Specifically [Helium](https://helium.computer/) and [Vanadium](https://vanadium.app))
+- [Firefox](https://www.firefox.com/)
+- [Ladybird](https://ladybird.org/)
+- [Servo](https://servo.org/) (Specifically [servoshell](https://servo.org/download/))
+
+## 🪞 Mirrors
+Most likely going to move to my own self hosted Forgejo one day, and have Codeberg become just a mirror. This will only happen when federation comes to Forgejo.
+
+You can find mirrors of this repository at:
+- [GitHub](https://github.com/LandenHM/LandenHM.github.io)
+- [GitLab](https://gitlab.com/LandenHM/landenhm.gitlab.io)
+
+## 🌐 Live Sites
+Depending on if people want it, in the future once the site is in a much better condition, I'll consider: [i2p](https://i2p.net/en/), [spartan](https://portal.mozz.us/spartan/mozz.us/) and Gopher-over-TLS (gophers://)
+
+Access the site through these links:
+- [GitHub Pages](https://landenhm.github.io)
+- [GitLab Pages](https://landenhm.gitlab.io)
+- [Codeberg Pages](https://landenhm.codeberg.page)
+- [Cloudflare Pages](https://landenhm.pages.dev)
+- [Tor Hidden Service](https://landenhmptf6o6cka3icfghjq4agr2k2b7tnc4kyabu2vdx7yvgay6id.onion)
+
+## ❔ More Information
+
+For more details about the site, please refer to the [FAQ page](https://landenhm.codeberg.page/faq/).
